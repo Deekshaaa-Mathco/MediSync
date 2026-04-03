@@ -1,11 +1,10 @@
 class Appointment:
-    def __init__(self, patient_name, doctor_name, date, time, city, state):
+    def __init__(self, patient_name, doctor_name, date, time, location):
         self.patient_name = patient_name
         self.doctor_name = doctor_name
         self.date = date
         self.time = time
-        self.city = city
-        self.state = state
+        self.location = location
 
 
     def schedule(self):
